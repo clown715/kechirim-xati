@@ -100,7 +100,7 @@ h1 em{color:var(--gold)}
 <div id="rose"></div>
 
 <script>
-var PIN="0706"; // <- kodni shu yerda o'zgartiring
+var PIN="1515"; // <- kodni shu yerda o'zgartiring
 var $=function(i){return document.getElementById(i)},S=[].slice.call(document.querySelectorAll('.st')),B=$('bars').children,cur=0,RM=matchMedia('(prefers-reduced-motion:reduce)').matches;
 function go(n){S.forEach(function(s,i){s.classList.toggle('on',i===n)});for(var i=0;i<4;i++)B[i].classList.toggle('on',i<=Math.min(n,3));cur=n}
 // keypad
